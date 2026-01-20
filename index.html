@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="card">
+    <h1>Pasword Generator</h1>
+
+    <label for="length">Password length</label>
+    <input id="length" type="number" min="4" max="32" value="12">
+
+    <button  id="generate">Generate</button>
+
+    <div>
+        <input id="result" type="text" placeholder="Your password will appear here" readonly>
+        <button id="copy">Copy</button>
+    </div>
+
+    <p
+    id="msg"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
